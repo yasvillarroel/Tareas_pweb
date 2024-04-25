@@ -1,0 +1,145 @@
+
+/* REDES */
+.redes{
+    background-color: #470c6c; /* color barra */
+    font-size: medium; /* tamaño letra */
+    height: 60px; /* altura */
+    color: white /* color texto */
+}
+
+
+.col{  /* columnas */
+   
+   align-items: center;
+   padding-bottom: 50px;
+    
+}
+
+.columna{
+    flex: 1;
+    width: 10%;
+    padding: 0px 0px;
+    margin-top: 10vh;
+}
+
+.principal{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.portada{
+    height: 600px;
+    width: 100%;
+}
+
+
+/* BARRA */
+.barra {
+    position: absolute;
+    top: '';/* distancia vertical desde el borde superior */
+    left: 0;/* borde izquierdo */
+    width: 100%;
+    z-index: 100; 
+    padding: 20px;
+    align-items: center;
+}
+
+.barra .nav-link{
+    color: white
+}
+
+/*.barra .nav-link:hover {
+    color: #FF935D; /* Cambiar el color a naranja cuando pasas el cursor por encima de los botones*/
+    
+.barra .active{
+    color: #FF935D;
+}
+
+.barra .nav-item{
+    margin-right: 50px;
+    font-weight: bold; /* fuente en negrita */
+}
+
+.logo-white{
+    padding-top: 100px; /* espacio de arriba */
+}
+
+/* MASCOTAS */
+.mascotas .p-{
+    color: #7B7B7B;
+    font-weight: bold;
+}
+
+.mascotas .subtitulo{
+    color: #470c6c;
+}
+
+.foto{
+
+    width: 55vh;
+    height: 55vh;
+    margin: 60px;
+    
+    
+}
+.foto2{
+    height: 150px;
+    width: 150px;
+    margin: 35px;
+    
+}
+
+.subtitulo{
+    color: rgb(69, 13, 121);
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.titulo{
+    color: rgb(69, 13, 121);
+    font-weight: bolder;
+}
+
+
+/* CONTACTO */
+.contacto{
+    background-image: url(../img/fondo-contacto.jpg);
+    background-repeat: none;
+    background-size: cover;
+     /*tamaño fondo*/
+    padding: 50px 200px ;
+    
+}
+
+.btn{
+    background-color: #470c6c;
+    padding: 15px 40px;
+    border-radius: 10px;
+    
+}
+
+/* DERECHOS */
+.derechos{
+    background-color: #470c6c;
+   
+    height: 400px;
+    
+}
+
+h6{
+    padding: 100px;
+    font-weight: lighter;
+}
+
+.texto-centrado {
+    position: absolute;
+    top: 38%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Cambia el color del texto según tu diseño */
+    font-size: 100px;
+}
+
+
+
+

@@ -1,0 +1,113 @@
+
+/* REDES */
+.redes{
+    background-color: #470c6c; /* color barra */
+    font-size: medium; /* tamaño letra */
+    height: 60px; /* altura */
+    color: white /* color texto */
+}
+
+.redes .col{  /* columnas */
+    display: flex; /* diseño flexible */
+    align-items: center; /* alinea  horizontalmente */
+    justify-content: center; /* los centra verticalmente */
+    
+}
+
+.redes .col i{ /* iconos */
+    margin: 20px 20px 20px 20px;/* espacios (arriba,derecha,abajo,izquierda */
+    font-size: 24px; 
+    margin-right: 20px;
+}
+
+/* BARRA */
+.barra {
+    position: absolute;
+    top: '';/* distancia vertical desde el borde superior */
+    left: 0;/* borde izquierdo */
+    width: 100%;
+    z-index: 100; 
+    padding: 20px;
+    align-items: center;
+}
+
+.barra .nav-link{
+    color: white
+}
+
+/*.barra .nav-link:hover {
+    color: #FF935D; /* Cambiar el color a naranja cuando pasas el cursor por encima de los botones*/
+    
+.barra .nav-link:hover{
+    color: #FF935D;
+}
+
+.barra .nav-item{
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+.logo-white{
+    padding-top: 100px;
+}
+
+/* MASCOTAS */
+.mascotas .p-5{
+    color: #7B7B7B;
+    font-weight: bold;
+}
+
+.mascotas .subtitulo{
+    color: #470c6c;
+}
+
+.foto{
+    width: 200px;
+    border-radius: 8px;
+}
+
+.subtitulo{
+    color: rgb(69, 13, 121);
+    font-weight: bolder;
+}
+
+
+/* CONTACTO */
+.contacto{
+    background-color: rgb(236, 114, 15);
+    height: 500px; /*tamaño fondo*/
+    padding: 5% 30% 5% 30%;
+    
+}
+
+.btn{
+    background-color: #470c6c;
+    
+}
+
+/* DERECHOS */
+.derechos{
+    background-color: #470c6c;
+    margin-bottom: -10px; /* para quitarle la linea blanca del final */
+    height: 400px;
+    
+}
+
+h6{
+    padding: 100px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
